@@ -1,0 +1,50 @@
+{
+  "name": "react-password-generator",
+  "version": "1.0.0",
+  "description": "A clean, modern, and customizable password generator web application built with React.",
+  "private": true,
+  "author": "Dnyaneshwar Patil",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DnyaneshwarPatil09/React-Password-Generator.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.15.0",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "react-toastify": "^8.1.0",
+    "web-vitals": "^1.1.2"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  },
+  "scripts": {
+    "start": "cross-env NODE_OPTIONS=--openssl-legacy-provider react-scripts start",
+    "dev": "cross-env NODE_OPTIONS=--openssl-legacy-provider react-scripts start",
+    "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider react-scripts build",
+    "test": "cross-env NODE_OPTIONS=--openssl-legacy-provider react-scripts test --watchAll=false",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
